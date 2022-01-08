@@ -1,4 +1,7 @@
-public class rabinKarp{
+package com.pqr.rabinkarp;
+import java.util.*;
+
+public class rabinKarp {
     public static void main(String[] args) {
         //leetcode 1044 and 686
     }
@@ -6,11 +9,11 @@ public class rabinKarp{
 
 class rabinKarpDemo {
     static int P = 1313;
-    long[] p, h;
-    
+    static long[] p, h;
+
     //字符串哈希
     //rk算法
-    static int strHash(String s, String b) {
+    static int strHash(String ss, String b) {
         int n = ss.length(), m = b.length();
         String str = ss + b;
         int len = str.length();
