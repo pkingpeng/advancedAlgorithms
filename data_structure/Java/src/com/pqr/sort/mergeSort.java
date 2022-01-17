@@ -70,5 +70,6 @@ public class mergeSort {
             arr[arrLeft] = temp[tempIndex];
             arrLeft++;
             tempIndex++;
+        }
     }
 }
